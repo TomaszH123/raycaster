@@ -472,7 +472,7 @@ float ray2(int x, int y, int arr[MAPY][MAPX], SDL_Renderer* renderer, float pa, 
 	}
 	ca = (PI) / ra;
 	float distance = sqrt(pow((x - x2), 2) + pow((y - y2), 2));
-	distance = distance * cos(ca+0.5*PI);
+	//distance = distance * cos(ca+0.5*PI);
 
 	return distance;
 }
